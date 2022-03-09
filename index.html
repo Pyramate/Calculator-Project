@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1>My super Calculator</h1>
+    </header>
+    <main>
+        <div class="container_calc">
+            <div class="displayer line1" id="test">results</div>
+            <button onclick="stockFirstNumber('+')" class="operation line2">+</button>
+            <button onclick="stockFirstNumber('-')" class="operation line2">-</button>
+            <button onclick="stockFirstNumber('x')" class="operation line2">x</button>
+            <button onclick="stockFirstNumber('/')" class="operation line2">/</button>
+            <button onclick="displayNumber(7)" class="number line3">7</button>
+            <button onclick="displayNumber(8)" class="number line3">8</button>
+            <button onclick="displayNumber(9)" class="number line3">9</button>
+            <button onclick="performOperation(operator)" class="equal line3">=</button>
+            <button onclick="displayNumber(4)" class="number line4">4</button>
+            <button onclick="displayNumber(5)" class="number line4">5</button>
+            <button onclick="displayNumber(6)" class="number line4">6</button>
+            <button onclick="displayNumber(1)" class="number line5">1</button>
+            <button onclick="displayNumber(2)" class="number line5">2</button>
+            <button onclick="displayNumber(3)" class="number line5">3</button>
+            <button onclick="displayNumber(0)" class="number line6 zero">0</button>
+            <button onclick="displayNumber('.')" class="number line6">.</button>
+            <button onclick="clearAll()"class="number line6">AC</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
